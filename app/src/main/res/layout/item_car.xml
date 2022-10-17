@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Klik"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:padding="20dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/tvImg"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"/>
+            <TextView
+                android:id="@+id/tvNama"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@+id/tvImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tvHarga"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@+id/tvImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Harga"
+                android:textSize="20dp"
+                android:layout_marginTop="50dp"/>
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
